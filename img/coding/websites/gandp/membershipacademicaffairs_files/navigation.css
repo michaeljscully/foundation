@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+	font-family: Times New Roman, serif; 
+}
+
+/*#content
+{
+    width:260px;
+    margin: 100px auto;
+    }*/
+
+#navContainer
+{
+    clear:both;
+/*    width:230px;*/
+	margin: 10px 0 0 0;
+	font-family: Times New Roman, serif; 
+}
+
+a:focus,a:active{outline:0}
+
+#nav *
+{
+	font-family: 'Times New Roman', serif; 
+	position:relative;/* peek-a-boo bug fix for IE6 */
+	min-width:0;/* peek-a-boo bug fix for IE7 */
+}
+
+#nav li
+{
+/*	width:180px;*/
+	cursor:pointer;
+    list-style:none;
+/*	padding:0 0 0 20px;*/
+	margin:0;
+}
+#nav a
+{
+    text-decoration:none;
+	font-size:14px;
+/*    color:#fff;*/
+	display:block;
+}
+
+#nav a:hover
+{
+	text-decoration:underline;
+}
+
+#nav ul
+{
+    display:none;
+    margin:0;
+    padding:0;
+	zoom:1;	/*fixes ie6 bug (list will disappear after slideDown)*/
+}
+
+#nav ul li
+{
+	padding-left:0
+	line-height: 220%;
+}
+
+#nav ul li a
+{
+    padding:0;
+	font-size:13px;
+/*	line-height: 120%;*/
+}
+
+#nav ul li a.Current { color: #8D303A; font-weight: bold; text-decoration: underline; }

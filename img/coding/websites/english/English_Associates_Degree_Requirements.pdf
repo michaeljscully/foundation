@@ -1,0 +1,441 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML DIR="ltr" LANG="en">
+
+<head>
+
+<META NAME="keywords" content="">
+<META NAME="description" content="">
+<META NAME="author" content="Pamela Joseph">
+
+</head>
+<body>
+
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	  <html xmlns="http://www.w3.org/1999/xhtml">
+	  <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	  <!--pmj 03/22/2011 remove this once debugging is complete
+	  <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script> -->
+	  <META HTTP-EQUIV="Content-Language" Content="en">
+	  <link rel="SHORTCUT ICON" href="http://depts.gpc.edu/favicon.ico" />
+	  <meta name="description" content="An Associate Degree-Granting College of the University System of Georgia.  Six locations in the Metropolitan Atlanta Area." />
+	  <meta name="keywords" content="gpc, georgia perimeter college, georgia perimeter, perimeter college, Georgia Perimeter, Perimeter College, Georgia Perimeter College, de kalb college, dekalb, dekalb College, dekab college, associate degree, degrees, associate degree atlanta, two year colleges, nurse, nursing, fire, fireman, interpreter training, dental hygiene, esl, english language, online courses, college online, AAS, AA" />
+	  <base target="_top" />
+	  <title>403 Error - Forbidden File :: Georgia Perimeter College</title>
+      <script language="JavaScript1.2" type="text/javascript">
+		<!--	
+			
+			function load()
+			{
+				//called at the very bottom of the page
+				scrollurgentnotice();
+				
+			}
+			// -->
+			</script>
+			
+			<!--link rel="stylesheet" href="/website-look/php/css/reset.css" type="text/css" media="screen, projection"-->
+			<link rel="stylesheet" href="/website-look/php/css/type.php" type="text/css" media="screen, projection">
+			<link rel="stylesheet" href="/website-look/php/css/form.css" type="text/css" media="screen, projection">
+			<link rel="stylesheet" href="/website-look/php/css/style.php" type="text/css" media="screen, projection">
+			<link rel="stylesheet" href="/website-look/php/css/cssmenu.php" type="text/css" media="screen" />
+			<link rel="stylesheet" href="/website-look/php/css/print.css" type="text/css" media="print"/>
+			
+			<!--link rel="stylesheet" href="/website-look/php/css/portal.css" type="text/css" media="screen" /-->
+			<script language="JavaScript1.2" type="text/javascript" src="http://depts.gpc.edu/webpage_files/javascript/menu_include.js"></script>
+			<script language="JavaScript1.2" type="text/javascript" src="http://depts.gpc.edu/website-look/php/javascript/mm_css_menu.js"></script>
+			<script language="JavaScript1.2" type="text/javascript">
+			<!--
+			if (navigator.appVersion.indexOf("Mac")!=-1)
+			{	//turn off menu transparency for Mac
+				document.write("<style type='text/css'>");
+				document.write("div#gold-menu ul ul a, div#red-menu ul ul a");
+				document.write("{opacity:1.0;-moz-opacity:1.0;}");
+				document.write("</style>");
+			}
+			//-->
+			</script>
+			</head>
+<body>
+   <!--div class="textonly"> <a href="http://assistive.usablenet.com/tt/">Text Only</a><a href="#maincontent" tabindex="1">Skip to Content</a></div-->
+    
+	<div class="container">
+	   
+	   <div class="header-main headbg shadow">
+	       
+		   <div class="header-left">
+	           <a href="http://www.gpc.edu/"><img src="/website-look/php/images/logo.jpg" /></a>
+			 </div><!-- end "header-left" -->  
+			   <div class="header-rt">
+			
+				<div class="search wbg">
+				   <form method="get" action="http://search.gpc.edu/search">
+						<input type="hidden" value="" name="restrict">
+						<input type="hidden" value="" name="ie">
+						<input type="hidden" value="gpc01" name="site">
+						<input type="hidden" value="xml_no_dtd" name="output">
+						<input type="hidden" value="gpc01" name="client">
+						<input type="hidden" value="" name="lr">
+						<input type="hidden" value="gpc01" name="proxystylesheet">
+						<input type="text" style="border-width:0px" maxlength="256" size="27" name="q" id="q" class="searchinput">
+						<input align="absmiddle" type="image" onmouseover="MM_swapImage('go_button','','/website-look/php/images/go_button_gold.gif',1);" 	onmouseout="MM_swapImgRestore();" alt="Search Button" src="/website-look/php/images/go_button_gold.gif" name="go_button">
+						<input type="hidden" value="" name="oe">
+					</form>
+				</div><!--end search wbg -->
+			    <!--Begin Header Menus -->
+				<div id="red-menu">
+				 
+				 
+<ul style="">
+  <li><a style="" href="http://www.gpc.edu/">Home</a></li>
+  <li><a style="margin-left:27px;" href="http://eapps.gpc.edu/directory/">Directories</a></li>
+  <li><a style="margin-left:1px;" href="http://www.gpc.edu/governance/">Policies</a></li></ul>		   
+		   		
+<ul style="">
+  <li><a style="" href="http://admissions.gpc.edu">Apply Now</a></li>
+  <li><a onclick="return false;" style="margin-left:0px;" href="" >Contact Us</a>
+    <ul style="width:182px;">
+      <li><a style="width:182px;" href="http://www.gpc.edu/Facilities_and_Services/campuses.php3">Address / Phone</a></li>
+      <li><a style="width:182px;" href="http://depts.gpc.edu/gpcserves/">Customer Services (GPC Serves)</a></li>
+      <li><a style="width:182px;" href="http://eapps.gpc.edu/directory/">Directories</a></li>
+      <li><a style="width:182px;" href="http://www.gpc.edu/Request/w3_form/">Email us</a></li>
+      <li><a style="width:182px;" href="http://giving.gpc.edu">Give to GPC</a></li>
+      <li><a style="width:182px;" href="http://depts2.gpc.edu/~gpcem/registrar/transcript_request.html/">Request Transcript</a></li>
+      <li><a style="width:182px;" href="http://depts.gpc.edu/library/">Libraries</a></li>
+      <li><a style="width:182px;" href="http://depts.gpc.edu/servicedesk/">Technology Service Desk</a></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >Quick Links</a>
+    <ul style="width:150px;">
+      <li><a style="width:150px;" href="http://eapps.gpc.edu/askgpc/">Ask GPC</a></li>
+      <li><a style="width:150px;" href="http://www.gpc.edu/calendar/">Calendars</a></li>
+      <li><a style="width:150px;" href="http://depts.gpc.edu/~gpcpd/">Campus Police</a></li>
+      <li><a style="width:150px;" href="http://getmylogin.gpc.edu">GetMyLogin</a></li>
+      <li><a style="width:150px;" href="http://depts.gpc.edu/Foundation/">Give to GPC</a></li>
+      <li><a style="width:150px;" href="http://icollege.gpc.edu/">iCollege</a></li>
+      <li><a style="width:150px;" href="http://depts.gpc.edu/library/">Libraries</a></li>
+      <li><a style="width:150px;" href="http://sis.gpc.edu">Student Info System (SIS)</a></li>
+      <li><a style="width:150px;" href="http://depts.gpc.edu/servicedesk/">Technology Service Desk</a></li>
+      <li><a style="width:150px;" href="http://webmail.gpc.edu/">Webmail</a></li></ul></li></ul> 
+				 
+				</div><!-- end red-menu-->
+				
+			 </div><!--End header-rt -->
+		   		   <div class="header-left-nav">
+					<ul class="audience-nav">
+						<li class="audience-nav"> <a href="http://www.gpc.edu/New_Student/" class="first">PROSPECTIVE STUDENTS&nbsp;| </a> </li>
+						<li class="audience-nav"> <a href="http://student.gpc.edu/">CURRENT STUDENTS&nbsp;| </a> </li>
+						<li class="audience-nav"> <a href="http://facstaff.gpc.edu/">FACULTY / STAFF&nbsp;| </a> </li>
+						<!--li class="audience-nav"> <a href="/student/index_new.html">CURRENT STUDENTS&nbsp;| </a> </li>
+						<li class="audience-nav"> <a href="/faculty">FACULTY / STAFF&nbsp;| </a> </li-->
+						<li class="audience-nav last"> <a href="http://depts.gpc.edu/Alumni/">ALUMNI&nbsp;|</a> </li>
+						<li class="audience-nav last"> <a href="http://www.gpc.edu/Visitors_Friends/">COMMUNITY&nbsp;|</a> </li>
+						<li class="audience-nav last"> <a href="http://www.gpc.edu/Facilities_and_Services/campuses.php3">CAMPUSES</a> </li>
+					</ul>
+			   </div>
+	     </div><!-- end class="header-main headbg" -->
+	
+	     <!--End Header -->
+		 <!-- Global Nav -->
+	
+		<div id="gold-menu">
+		
+<ul style="">
+  <li><a onclick="return false;" style="background-image:none;" href="" >ABOUT GPC</a>
+    <ul id='aboutgpc' style="width:180px;">
+      <li><a style="width:180px;" href="http://www.gpc.edu/catalog/accreditation">Accreditation</a></li>
+      <li><a style="width:180px;" href="http://depts.gpc.edu/Alumni/">Alumni</a></li>
+      <li><a style="width:180px;" href="http://giving.gpc.edu/">Annual Fund</a></li>
+      <li><a style="width:180px;" href="http://www.gpc.edu/Facilities_and_Services/campuses.php3">Campus Locations</a></li>
+      <li><a style="width:180px;" href="http://www.gpc.edu/humanresources/employment-information">Employment</a></li>
+      <li><a style="width:180px;" href="http://gpc.alertline.com">Ethics Hotline</a></li>
+      <li><a style="width:180px;" href="http://www.gpc.edu/News_and_Information/fact.php3">Fact Book</a></li>
+      <li><a style="width:180px;" href="http://eapps.gpc.edu/FAQ/">FAQ</a></li>
+      <li><a style="width:180px;" href="http://depts.gpc.edu/governance/">Governance/Policy</a></li>
+      <li><a style="width:180px;" href="http://depts.gpc.edu/~gpcinadv/Government%20Relations.htm">Government Relations</a></li>
+      <li><a style="width:180px;" href="http://www.gpc.edu/News_and_Information/fact.php3#data">GPC at a Glance</a></li>
+      <li><a style="width:180px;" href="http://depts.gpc.edu/Foundation/">GPC Foundation</a></li>
+      <li><a style="width:180px;" href="http://depts.gpc.edu/~gpcgsp/">Grants &amp; Sponsored Programs</a></li>
+      <li><a style="width:180px;" href="http://depts.gpc.edu/~gpcinadv/index.htm">Institutional Advancement</a></li>
+      <ul style="left:195px;width:235px;">
+        <li><a style="width:235px;" href="http://depts.gpc.edu/Foundation/scholarships.htm">Scholarships</a></li></ul>
+      <li><a style="width:180px;" href="http://depts.gpc.edu/~gpcoirp/">Institutional Research</a></li>
+      <li><a style="width:180px;" href="http://www.gpc.edu/Campus_Maps/index.html">Maps/Directions</a></li>
+      <li><a style="width:180px;" href="http://www.gpc.edu/News_and_Information/mission.php3">Mission/Vision</a></li>
+      <li><a style="width:180px;" href="http://depts.gpc.edu/orgdev">Organizational Development</a></li>
+      <li><a style="width:180px;" href="http://giving.gpc.edu/page.aspx?pid=292">Retiree Association</a></li>
+      <li><a style="width:180px;" href="http://www.usg.edu/">University System of Georgia</a></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >ACADEMICS</a>
+    <ul id='academics' style="width:200px;">
+      <li><a style="width:200px;" href="http://www.gpc.edu/calendar/academic/">Academic Calendar</a></li>
+      <li><a style="width:200px;" href="http://www.gpc.edu/academics/">Academic Affairs</a></li>
+      <li><a style="width:200px;" href="http://advising.gpc.edu/">Advisement</a></li>
+      <li><a style="width:200px;" href="http://www.gpc.edu/catalog/">Catalog</a></li>
+      <li><a onclick="return false;" style="width:200px;" href="" >Centers and Institutes<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul style="left:215px;width:185px;">
+          <li><a style="width:185px;" href="http://depts.gpc.edu/~engage/">Civic Engagement</a></li>
+          <li><a style="width:185px;" href="http://www.gpc.edu/gpcglobe/">International Education</a></li>
+          <li><a style="width:185px;" href="http://depts.gpc.edu/~ctl/">Teaching and Learning</a></li>
+          <li><a style="width:185px;" href="http://depts.gpc.edu/southern_academy/">Southern Academy</a></li></ul></li>
+      <li><a style="width:200px;" href="http://www.gpc.edu/programs/">Programs of Study</a></li>
+      <li><a style="width:200px;" href="http://www.gpc.edu/Academics/departments/">Departments</a></li>
+      <li><a style="width:200px;" href="http://depts.gpc.edu/dualenrollment/">Dual Enrollment</a></li>
+      <li><a style="width:200px;" href="http://www.gpc.edu/Academics/faculty_websites/">Faculty Directory</a></li>
+      <li><a style="width:200px;" href="http://depts2.gpc.edu/~gpcem/registrar/final_exam.html">Final Exam Schedule</a></li>
+      <li><a style="width:200px;" href="http://www.gpc.edu/~acadaff/Schedules/learning_communities.html">Learning Communities</a></li>
+      <li><a style="width:200px;" href="http://depts.gpc.edu/library/">Libraries</a></li>
+      <li><a onclick="return false;" style="width:200px;" href="" >Non-Degree Programs<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul style="left:215px;width:130px;">
+          <li><a style="width:130px;" href="http://admissions.gpc.edu/fall2012/senior.html">Prime Timer</a></li></ul></li>
+      <li><a style="width:200px;" href="http://depts.gpc.edu/~engage/">Service Learning</a></li>
+      <li><a onclick="return false;" style="width:200px;" href="" >Special Programs<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul style="left:215px;width:250px;">
+          <li><a style="width:250px;" href="http://www.gpc.edu/esl/">ESL</a></li>
+          <li><a style="width:250px;" href="http://geap.gpc.edu">GPC Educational Achievement Program</a></li>
+          <li><a style="width:250px;" href="http://depts.gpc.edu/~gpchonp/">Honors Program</a></li>
+          <li><a style="width:250px;" href="http://lsupport.gpc.edu/">Learning Support</a></li></ul></li>
+      <li><a style="width:200px;" href="http://www.gpc.edu/gpcglobe/">International Education</a></li>
+      <li><a style="width:200px;" href="http://depts.gpc.edu/tag/">Transfer Admission Guarantees</a></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >ADMISSIONS / REGISTRATION</a>
+    <ul id='admissions' style="width:185px;">
+      <li><a style="width:185px;" href="http://www.gpc.edu/calendar/academic/">Academic Calendar</a></li>
+      <li><a style="width:185px;" href="http://admissions.gpc.edu/">Admissions</a></li>
+      <li><a style="width:185px;" href="http://admissions.gpc.edu/">Apply Now<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul style="left:200px;width:120px;">
+          <li><a style="width:120px;" href="https://eapps.gpc.edu/mystatus/">Check My Status</a></li>
+          <li><a style="width:120px;" href="http://admissions.gpc.edu/roadmap">Roadmap to Success</a></li></ul></li>
+      <li><a style="width:185px;" href="http://registrar.gpc.edu/">Registrar</a></li>
+      <li><a style="width:185px;" href="http://depts2.gpc.edu/~gpcem/registrar/classschedule.html">Class Schedules</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~finaid/">Financial Aid</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/Request/">Forms</a></li>
+      <li><a style="width:185px;" href="http://eapps.gpc.edu/FAQ/">Frequently Asked Questions</a></li>
+      <li><a style="width:185px;" href="http://isaa.gpc.edu/">International Admissions</a></li>
+      <li><a style="width:185px;" href="http://lsupport.gpc.edu">Learning Support</a></li>
+      <li><a style="width:185px;" href="http://orientation.gpc.edu">Orientation</a></li>
+      <li><a onclick="return false;" style="width:185px;" href="" >Registration<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul style="left:200px;width:150px;">
+          <li><a style="width:150px;" href="http://depts2.gpc.edu/~gpcem/registrar/campusregistration.html">On Campus Registration</a></li>
+          <li><a style="width:150px;" href="http://depts2.gpc.edu/~gpcem/registrar/registerforclass.html">Online Registration</a></li></ul></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/Request/w3_form/">Request Information</a></li>
+      <li><a style="width:185px;" href="http://depts2.gpc.edu/~gpcem/registrar/transcript_request.html">Request Transcripts</a></li>
+      <li><a style="width:185px;" href="http://testing.gpc.edu">Testing</a></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >FINANCIAL SERVICES</a>
+    <ul id='financial' style="width:135px;">
+      <li><a style="width:135px;" href="http://depts.gpc.edu/~finaid/">Financial Aid</a></li>
+      <li><a style="width:135px;" href="http://depts.gpc.edu/~finaid/printableforms.htm">Financial Forms</a></li>
+      <li><a style="width:135px;" href="http://depts.gpc.edu/~finaid/howtopayyourbill.htm">Payments/Refunds</a></li>
+      <li><a style="width:135px;" href="http://depts.gpc.edu/Foundation/scholarships.htm">Scholarships</a></li>
+      <li><a style="width:135px;" href="http://depts.gpc.edu/~gpcsfs/student_accounts/">Student Accounts</a></li>
+      <li><a style="width:135px;" href="http://depts.gpc.edu/~finaid/tuitionandfees.htm">Tuition &amp; Fees</a></li>
+      <li><a style="width:135px;" href="http://depts.gpc.edu/~finaid/veterans.html">Veterans Services</a></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >CAMPUS LIFE</a>
+    <ul id='campus' style="width:185px;">
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~athletic/">Athletics</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcslife/studentclubs.html">Clubs and Organizations</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcdeans/">Dean of Student</a></li>
+      <li><a onclick="return false;" style="width:185px;" href="http://depts.gpc.edu/~clafa/" >Fine Arts<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul style="left:200px;width:165px;">
+          <li><a style="width:165px;" href="http://depts.gpc.edu/~clafa/">Art/Music/Theatre</a></li>
+          <li><a style="width:165px;" href="http://depts.gpc.edu/symphony/">DeKalb Symphony Orchestra</a></li>
+          <li><a style="width:165px;" href="http://depts.gpc.edu/finearts/WE/">GPC Wind Ensemble</a></li></ul></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpchwr/">Health, Wellness &amp; Recreation</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/militaryoutreach/">Military Outreach</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcsaes/">Student Affairs</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcslife/">Student Life</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcslife/studentgovernmentassociation.html">Student Government</a></li>
+      <li><a style="width:185px;" href="http://www.collegiannews.com/">The Collegian</a></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >ONLINE</a>
+    <ul id='online' style="width:185px;">
+      <li><a style="width:185px;" href="http://admissions.gpc.edu">Apply Now</a></li>
+      <li><a style="width:185px;" href="http://depts2.gpc.edu/~gpcem/registrar/classschedule.html">Find a Class</a></li>
+      <li><a style="width:185px;" href="http://icollege.gpc.edu">iCollege Login</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/online/">GPC Online</a></li>
+      <li><a style="width:185px;" href="http://orientation.gpc.edu">Orientation</a></li>
+      <li><a style="width:185px;" href="http://depts2.gpc.edu/~gpcem/registrar/registerforclass.html">Registration</a></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >NEWS</a>
+    <ul id='news' style="width:185px;">
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~athletic/">Athletic News</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/calendar/">Events Calendar</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/calendar/?type=11117-fine_arts">Fine Arts Events</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/mpr/content/facebook-twitter-directory">GPC on Social Media</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/mpr/content/gpc-news">GPC in the News</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/mpr/">Marketing Public Relations<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul style="left:200px;width:225px;">
+          <li><a style="width:225px;" href="http://www.gpc.edu/mpr/content/events-calendar-submission-form">Event Calendar Submission Form</a></li>
+          <li><a style="width:225px;" href="http://www.gpc.edu/successstories">Success Story Submission Form</a></li>
+          <li><a style="width:225px;" href="http://www.gpc.edu/mpr/content/downloadable-logos">Downloadable Logos</a></li></ul></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~pubrel/news/">Media Releases</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/mpr/content/publications">Publications<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul style="left:200px;width:165px;">
+          <li><a style="width:165px;" href="http://www.gpc.edu/mpr/content/reports">Annual Report</a></li>
+          <li><a style="width:165px;" href="http://www.gpc.edu/mpr/content/impact-reports">Impact Report</a></li>
+          <li><a style="width:165px;" href="http://www.gpcinthelooponline.com/">In the Loop</a></li>
+          <li><a style="width:165px;" href="http://www.gpc.edu/mpr/content/chronicle">The Chronicle</a></li>
+          <li><a style="width:165px;" href="http://www.collegiannews.com/">The Collegian</a></li></ul></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >STUDENT SERVICES</a>
+    <ul id='student' style="width:185px;">
+      <li><a style="width:185px;" href="http://advising.gpc.edu/">Advising &amp; Counseling</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/collegeservices/bookstore">Bookstores</a></li>
+      <li><a style="width:185px;" href="http://depts2.gpc.edu/~gpcacs/careerdevelopment.htm/">Career Development</a></li>
+      <li><a style="width:185px;" href="http://depts2.gpc.edu/~gpcem/registrar/classschedule.html">Class Schedule</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/cds/">Disability Services</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/jagalert/">Emergency Notification (JAG Alert)</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcsfs/">Financial Services</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/jcard/">ID Card (JCard)</a></li>
+      <li><a style="width:185px;" href="http://isaa.gpc.edu/">International Admissions</a></li>
+      <li><a style="width:185px;" href="http://lsupport.gpc.edu">Learning Support</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcltc/">Learning &amp; Tutoring Center</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/militaryoutreach/">Military Outreach</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcpd/VehicleCode.htm">Parking Permit</a></li>
+      <li><a style="width:185px;" href="http://personalcounseling.gpc.edu/">Personal Counseling</a></li>
+      <li><a style="width:185px;" href="http://registrar.gpc.edu/">Registrar</a></li>
+      <li><a style="width:185px;" href="http://depts2.gpc.edu/~gpcem/registrar/transcript_request.html">Request a Transcript</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcsaes/">Student Affairs Office</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcshc/">Student Health Center</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcslife/">Student Life</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/oit/">Technology Services</a></li>
+      <li><a style="width:185px;" href="http://testing.gpc.edu">Testing</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~finaid/veterans.html">Veterans Affairs</a></li></ul></li>
+  <li><a onclick="return false;" style="" href="" >INSIDE GPC</a>
+    <ul id='insideGPC' style="width:185px;">
+      <li><a style="width:185px;" href="http://portal.adp.com">ADP</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/Facilities_and_Services/services.php3">College-wide Services</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/gpcserves/">Customer Service</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/jagalert/">Emergency Notification (JAG Alert)</a></li>
+      <li><a style="width:185px;" href="http://facstaff.gpc.edu/personalwebsites/">Employee Web Sites</a></li>
+      <li><a style="width:185px;" href="https://careers.gpc.edu/applicants/jsp/shared/Welcome_css.jsp">Employment Opportunities</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpcglobe/TAD/expertise/">Experts Guide</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~gpccpp/Facilities_Management/">Facilities</a></li>
+      <li><a style="width:185px;" href="http://depts.gpc.edu/~facsen/">Faculty Senate</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/Request/">Forms</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/humanresources/">Human Resources<img id="expand" src="/website-look/php/images/arrows.gif" align="top" alt="" /></a>
+        <ul id='humanresources' style="left:200px;width:185px;">
+          <li><a style="width:185px;" href="https://careers.gpc.edu/applicants/jsp/shared/Welcome_css.jsp">Employment Opportunities</a></li></ul></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/oit/">Information Technology</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/printingservices/">Printing Services</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/facilities_usage">Room Scheduling</a></li>
+      <li><a style="width:185px;" href="http://www.gpc.edu/staffsenate/">Staff Senate</a></li></ul></li></ul>				
+		</div><!--end gold-menu -->
+	   <!--<div> <img src="/website-look/php/images/space.gif" /></div>-->
+	   <!-- End Global Nav -->
+	   
+	  
+	<!--/**********************************************Start Body**************************************************/  -->
+	  
+	   <!-- Begin Slideshow -->
+	     	     <div style="clear:both;"></div>
+	    <div class="content-over"> 
+		 
+		  <div class="content-container">
+		  
+		 <div id="headeralert">
+		  		  </div>
+		  
+		   
+		 
+		  <div class="title-block">
+				 
+				 				
+					<div class="title-block-txt">403 Error - Forbidden File</div>
+		   
+		         		   </div>
+		   
+		   
+		   <!-- end if rightbannerimage -->
+		   
+		     
+				
+		   <div class="main-content">
+		   		
+				<div id="bread">
+			         
+					
+					 					 
+				</div> 
+		   		
+			
+		
+			
+						 
+			     <div class="center-region-nortnolft shadowed">
+				 
+				   				  
+				  		<div class="boxleft">
+				     		<div class="content">
+			 
+			 			 
+				
+	
+	
+	<!-- END OF START GPC --><h2>Sorry, the directory you are trying to access has no content pages, no index file in the directory, or you are not authorized to view this page. </h2> 
+ <h4>Please try one of the following:</h4> 
+<ul type="circle"><li type="circle">
+If you are trying to access your instructor's page, send him or her this message by email for the correct address of their page.  Instructor emails may be found under the Faculty and Staff Directory link at:  <a href="http://www.gpc.edu/Faculty_and_Students/directory.php3">http://www.gpc.edu/Faculty_and_Students/directory.php3</a> 
+</li>
+<li type="circle">
+Check the spelling of the URL to make sure the address is correct (capitalization and punctuation are important) and then click your browser's Refresh button. 
+</li>
+<li type="circle">
+Click your browser's Back button to return to the previous page.
+</li>
+<li type="circle">
+Use the GPC Main Menu Link found in the banner of this page to locate the area you may be looking for within the GPC website.
+</li>
+</ul> 
+  
+
+<font color="#C0C0C0"><h3>Error type 403 - Forbidden 
+</h3> </font>
+
+
+
+
+		 <script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-3263973-1");
+			pageTracker._setDomainName(".gpc.edu");
+			pageTracker._initData();
+			pageTracker._trackPageview();
+		</script>
+		
+				</div><!-- end content -->
+		     </div><!-- end boxleft -->
+		<!-- </div> end content-rt-container shadowed -->
+		
+		 
+	</div>
+	
+			
+	</div> <!-- PMJ MOVED THIS HERE FROM LINE 394 end main-content --> 
+	 
+	 </div><!-- PMJ changed - actually end to end to  main-content -->
+		
+		
+	     
+		         
+	</div> <!-- end container -->	
+	 
+	 
+	 <div class="footer rbg shadow">
+			<ul>    
+			        <li><a href="http://assistive.usablenet.com/tt/depts.gpc.edu/~gpcengl/documents/English_Associates_Degree_Requirements.pdf">Text Only&nbsp;&nbsp;|</a></li>
+					<li>Georgia Perimeter College &copy; 2012&nbsp;&nbsp;|</li>
+					<li><a href="http://www.usg.edu/">University System of Georgia /AA/EOE&nbsp;&nbsp;|</a></li>
+					<li><a href="http://www.gpc.edu/Request/w3_form/">Questions/Comments/Help&nbsp;&nbsp;|</a></li>
+					<li><a href="https://gpc.alertline.com">Ethics Hotline&nbsp;&nbsp;|</a></li>
+					<li><a href="http://www.gpc.edu/website-look/php/sitemap/">Site Map&nbsp;&nbsp;|</a></li>
+					<li><a href="http://www.gpc.edu/Faculty_and_Students/directory.php3">Contact Us&nbsp;&nbsp;|</a></li>
+					<li class="last"><a href="http://www.gpc.edu/catalog/accreditation">Accreditation</a></li>
+					
+			</ul>
+	</div><!--end footer" -->
+	
+</div><!-- end content -->
+
+</body>
+</html>
+
+</body>
+</html>

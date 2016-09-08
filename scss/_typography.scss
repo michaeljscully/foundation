@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+h1,h2,h3,h4,h5,h6 {
+	text-transform: uppercase;
+	letter-spacing: 0.10rem;
+	font-weight: 400;
+}
+
+h4 small, h5, h6 {
+	font-family: $body-font-family-condensed, sans-serif;
+}
+
+.quotation:before {
+	margin-left: 1rem;
+}
+
+p.lead {
+	text-transform: uppercase;
+}
+
+blockquote {
+	margin-top: 1rem;
+	background-color: $white;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	font-weight: $global-weight-normal;
+	border-left: 10px solid $primary-color;
+	padding: 1.3rem;
+}
+
+cite em {
+	font-style: normal;
+}
+
+ul {
+	margin-left: 0;
+}
+
+body {
+	font-weight: $global-weight-light;
+}
+
+.copyright {
+	font-family: $body-font-family-condensed;
+	text-transform: uppercase;
+}
+
+.nav-bar {
+	.fa-bars {
+		color: $primary-color;
+	}
+	.title-bar-title {
+		color: $black;
+		font-weight: $global-weight-bold;
+		font-family: $header-font-family;
+		text-transform: uppercase;
+	}
+
+}
+
+.menu-text {
+	font-family: $header-font-family;
+	text-transform: uppercase;
+	padding-top: 0;
+	padding-bottom: 0;
+	h4 {
+		font-weight: $global-weight-bold;
+	}
+}

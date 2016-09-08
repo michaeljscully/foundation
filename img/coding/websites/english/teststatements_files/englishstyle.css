@@ -1,0 +1,312 @@
+/**** Importing Fonts from Google Web Fonts ****/
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:400italic,700italic|Crimson+Text:400,400italic,600,600italic,700,700italic);
+
+
+/*	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700italic,600italic,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400italic' rel='stylesheet' type='text/css'>*/
+
+
+
+/**** Changes to Global Styles ****/
+
+.header-container {
+	background-image: url('http://depts.gpc.edu/~gpcengl/images/header.jpg');
+	height: 330px;
+}
+
+.main-content, .content-container, .container, body {
+	background-image: url('http://depts.gpc.edu/~gpcengl/images/soft_wallpaper.png');
+}
+
+.title-block, .top-util-largeimage {
+	display: none;
+}
+
+.top-util-mosaic img { display: none; }
+
+#gold-menu { background-color: #fff; }
+
+.content { padding-bottom: 0; }
+
+/**** English Division styles ****/
+
+.english {
+	font: 15px/150% 'Crimson Text', serif;
+
+/*added to fix .content*/
+	margin-left : 12px;
+	padding-left: 12px;
+}
+
+.english #content a {
+	color: #870023;
+}
+
+.english h1 {
+	font-family    : 'Lobster Two', sans-serif;
+	font-style     : italic;
+	font-weight    : 700;
+	font-size      : 24px;
+	text-decoration: underline;
+}
+
+.english h3 {
+	font           : 18px/100% 'Crimson Text', serif;
+	font-weight    : 600;
+	text-decoration: underline;
+	color          : #000;
+}
+
+.english h4 {
+	font       : 18px/100% 'Crimson Text', serif;
+	font-weight: 400;
+	font-style : italic;
+	color      : #000;
+}
+
+#content {
+/*	margin-left: 10px;*/
+	margin-right: 20px;
+}
+
+.spotlight {
+	padding      : 15px 0;
+	border-bottom: 1px dotted #c7c1ba;
+}
+
+.spotlight img {
+	display: block;
+	margin : 0px auto 15px auto;
+	border : 1px solid #c7c1ba !important;
+/*	width: 250px;
+	height: 140px;
+	width: 40%;
+	height: 40%;*/
+}
+
+.spotlight ul { margin-left: 0; }
+
+.spotlight ul li { margin: 15px 0; }
+
+.subheading {
+	text-align: center;
+}
+
+.spotlight hr {
+	width : 50%;
+	color : #c7c1ba;
+	border: 0;
+	height: 1px;
+	margin: 0 auto;
+}
+
+.headline {
+	padding: 15px 0 0 0;
+	margin : 0;
+}
+
+.backtotop { text-align: right; }
+
+table.inset {
+	vertical-align: top;
+	margin        : 0 0 15px 0;
+}
+
+#strategicplan .spotlight ul {
+	list-style-type: disc;
+	margin-left: 1.5em;
+}
+
+
+/**** NAVIGATION "CURRENT PAGE" HIGHLIGHTS ****/
+#home #nav-home a, #courses #nav-courses a, #degrees #nav-degrees a,
+#publications #nav-publications a,#strategicplan #nav-strategicplan a,
+#statements #nav-statements a, #englishexecutiveteam #nav-englishexecutiveteam a,
+#resources #nav-resources a, #upcoming #nav-upcoming.final a {
+	font-weight: 700;
+	font-style : italic;
+}
+
+
+/**** PER PAGE BACKGROUNDS ****/
+
+#home .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/header.jpg');
+	height    : 330px;
+}
+
+#courses .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/headercourses.jpg');
+	height    : 330px;
+}
+
+#degrees .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/headerdegrees.jpg');
+	height    : 330px;
+}
+
+#publications .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/headerpublications.jpg');
+	height    : 330px;
+}
+
+#strategicplan .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/headerstrategicplan.jpg');
+	height    : 330px;
+}
+
+#statements .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/headerstatements.jpg');
+	height    : 330px;
+}
+
+#englishexecutiveteam .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/headerexec.jpg');
+	height    : 330px;
+}
+
+#resources .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/headerresources.jpg');
+	height    : 330px;
+}
+
+#upcoming .header-container {
+	background: url('http://depts.gpc.edu/~gpcengl/images/headers/headerupcoming.jpg');
+	height    : 330px;
+}
+
+/**** SIDEBARS ****/
+
+.contactbar {
+	font   : 12px 'Crimson Text', serif;
+	padding: 0 15px 0 5px;
+/*	line-height: 55%;*/
+}
+
+.contactFirst {
+	padding      : 5px 0;
+	border-bottom: 1px dotted #c7c1ba;
+	display      : block;
+	height       : 65px;
+}
+
+.contact {
+	padding      : 5px 0;
+	border-bottom: 1px dotted #c7c1ba;
+	display      : block;
+	height       : 65px;
+}
+
+.contact p {
+	margin: 0;
+}
+
+.contactupcoming {
+	padding      : 5px 0;
+	border-bottom: 1px dotted #c7c1ba;
+	display      : block;
+}
+
+#contactupcomingmore { text-align: right; }
+
+.headshot {
+	margin : 10px 20px 0px 0px;
+	float  : left;
+	width  : 43px;
+	height : 43px;
+	display: inline;
+	border : 1px solid #c7c1ba;
+}
+
+.contactinfoFirst {
+	margin     : 0 0 0 15px;
+	height     : 45px;
+	display    : inline;
+	line-height: .85em;
+/*	clear: left;*/
+}
+
+.contactinfo {
+	margin     : 0 0 0 15px;
+	height     : 45px;
+	display    : inline;
+	line-height: .85em;
+/*	clear: left;*/
+}
+
+.navbar {
+	font   : 15px 'Crimson Text', serif;
+	padding: 0 15px 0 5px;
+}
+
+.navbar ul { margin: 0; padding: 0; }
+
+.navbar ul li {
+	padding      : 10px 0 10px 0;
+	border-bottom: 1px dotted #c7c1ba;
+}
+
+.navbar ul li.final { border-bottom: none; }
+
+.navbar ul li a { color: #870023; }
+
+.current {
+	font-weight: 600;
+	font-style : italic;
+}
+
+.content #imgli {
+	margin : 0;
+	padding: 0;
+/*	border-top: 1px solid #c7c1ba;*/
+}
+
+.final {
+	border-bottom: none;
+}
+
+/****CONTACT FORM****/
+
+.form {
+	border: none;
+}
+
+.english input, .english textarea, .english select {
+	border: 1px solid #c7c1ba;
+	font-size: 0.9em;
+	height: 2em;
+	font-family: 'Crimson Text', serif;
+}
+
+.english input, .english textarea {
+	width: 100%;
+}
+
+.floatright {
+	float: right;
+	clear: both;
+}
+
+/*select { float: right; }*/
+
+.english textarea {
+	height: 150px;
+}
+
+.english input:focus, .english textarea:focus {
+	border: 1px solid #870023;
+}
+
+/*label {
+	display: block;
+}*/
+
+#submit, #reset {
+	margin: 0 auto;
+	width: 40%;
+	height: 3em;
+}
+
+#reset { float: right; }
+
+/*#submit:hover, #reset:hover { background-color: #870023; color: #fff; }*/

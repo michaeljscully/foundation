@@ -1,0 +1,68 @@
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+
+.content-a {
+	display:table;
+
+	.content-b {
+	display:table-cell;
+    position:relative;
+	vertical-align:middle;
+	padding: 15% 3%;
+	}
+}
+
+.subtitle {
+	font-weight: $global-weight-light;
+	color: $primary-color;
+	text-transform: lowercase;
+}
+
+.landingpage {
+	// min-height: 100%;
+	width: 100%;
+	background: linear-gradient(
+      rgba(0,0,0,.85), 
+      rgba(0,0,0,.85)
+    ),
+    url('../img/portrait.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	// text-align: center;
+	-webkit-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,1.0);
+	-moz-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,1.0);
+	box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,1.0);
+
+	h1 {
+		font-size: 2.5rem;
+		font-weight: $global-weight-bold;
+		color: $white;
+	}
+
+	p {
+		font-size: 1.4rem;
+		color: $white;
+		font-weight: $global-weight-light;
+		text-align: left;
+	}
+
+	.landingpage-logo {
+		width: 30%;
+		margin: 1.2rem auto;
+		display: block;
+		opacity: 0.70;
+	}
+
+	.button {
+		// border: 2px solid $primary-color;
+		font-family: $body-font-family-condensed;
+		font-weight: $global-weight-normal;
+		text-transform: uppercase;
+		// font-size: 1rem;
+		// color: $primary-color;
+		// background-color: transparent;
+	}
+}

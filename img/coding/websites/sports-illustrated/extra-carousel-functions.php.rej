@@ -1,0 +1,22 @@
+--- si-extramustard-mobile/plugins/extra-carousel-functions.php	(revision 117098)
++++ si-extramustard-mobile/plugins/extra-carousel-functions.php	(working copy)
+@@ -121,10 +123,16 @@
+ 		extra_T2_carousel( 'Hot Clicks' , $query, '', array(), $total  );
+ }
+ function extra_T2_instagram_carousel() {
+-    
+     $photos = extra_instagram_photos();
+-    $count_items = $photos['count_items'];
+-    unset($photos['count_items']);
++    // $count_items = $photos['count_items'];
++    if (isset($photos['count_items'])) {
++        $count_items = $photos['count_items'];
++    }
++
++
++    if (isset($photos['count_items'])) {
++        unset($photos['count_items']);
++    }
+     
+     if( count( $photos ) ) {
+         $section_classes = array();

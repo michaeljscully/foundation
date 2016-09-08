@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+    <title>Widget Data Tests</title>
+    <style type="text/css">
+        @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+        canvas {
+            font-family: 'Source Sans Pro';
+        }
+    </style>
+</head>
+ 
+<body>
+    <canvas id="top" width="300" height="550" style="position:absolute;">
+        <p>Your browser does not support the canvas tag. At the time of writing, Firefox, Opera, and Chrome support this tag.</p>
+        <p>Here's an <a href="/pix/html_5/tags/html_canvas_tag.gif">image of what it's supposed to look like</a>.</p>
+    </canvas>
+    <canvas id="middle" width="300" height="550" style="position:absolute;"></canvas>
+    <canvas id="bottom" width="300" height="550" style="position:absolute;"></canvas>
+
+    <script type="text/javascript">
+        var c = document.getElementById('top');
+        var bottomLayer = c.getContext('2d');
+        c.style.zIndex = "1";
+        var d = document.getElementById('middle');
+        var midLayer = d.getContext('2d');
+        d.style.zIndex = "2";
+        var e = document.getElementById('bottom');
+        c.style.backgroundColor = "#D3EEF5";
+        e.style.zIndex = "3";
+        var topLayer = e.getContext('2d');
+
+        var sName = "Florida"; // Change name here to change data shown. Supports states, DC, and territories.
+        var blue = "#63A2CA";
+        var white = "#FFFFFF";
+        var State = "null";
+         
+        function DrawTitle(t, vert, horz) {
+            topLayer.font = "bold 35px 'Source Sans Pro', sans-serif";
+            topLayer.fillStyle = blue;
+            topLayer.textAlign = "center";
+            topLayer.textBaseline = 'top';
+            topLayer.fillText(t.toUpperCase(), vert, horz);
+            topLayer.shadowColor="white";
+            topLayer.shadowOffsetX = 1;
+            topLayer.shadowOffsetY = 1;
+        }
+
+        function DrawSubtitle(t, vert, horz) {
+            topLayer.fillStyle = white;
+            topLayer.font = "20px Source Sans Pro, sans-serif";
+            topLayer.textAlign = "center";
+            topLayer.textBaseline = 'top';
+            topLayer.fillText(t, 150, 115);
+        }
+         
+        function DrawText(t, vert, horz) {
+            topLayer.fillStyle = blue;
+            topLayer.font = "20px Source Sans Pro, sans-serif";
+            topLayer.textAlign = "left";
+            topLayer.textBaseline = 'top';
+            topLayer.fillText(t, vert, horz);
+        }
+
+        function neverBox() {
+            topLayer.fillStyle = white;
+            topLayer.fillRect(50,402,20,20);
+        }
+
+        function someBox() {
+            topLayer.fillStyle = "#dddddd";
+            topLayer.fillRect(50,430,20,20);
+        }
+
+        function dailybox() {
+            var dailyboxBg = new Image();
+            dailyboxBg.src = "fill_texture.png";
+            dailyboxBg.onload = function() {
+                topLayer.drawImage(dailyboxBg,50,462,20,20);
+            }
+        }
+
+        function DrawFooter(t, vert, horz) {
+            topLayer.fillStyle = "black";
+            topLayer.font = "12px Source Sans Pro, sans-serif";
+            topLayer.textAlign = "center";
+            topLayer.textBaseline = "top";
+            topLayer.fillText(t, 150, 520);
+        }
+
+        function DrawInfo() {
+            DrawSubtitle(State.former_smoker + "% Former Smokers");
+            DrawTitle("Smoking in", 150, 20);
+            DrawTitle(sName,150, 60);
+            DrawText(State.never_smoked + "% Never",80,400);
+            DrawText(State.smoke_some_days + "% Occasionally",80,430);
+            DrawText(State.smoke_everyday + "% Every day",80,460);
+            neverBox();
+            someBox();
+            dailybox();
+            DrawFooter("*According to 2011 Survey");
+        }
+
+        //Lungs Frame
+        function DrawBackground() {
+            var frame = new Image();
+            frame.src="frame.png";
+            frame.onload = function DrawFrame() {
+                midLayer.drawImage(frame,0,0);
+            };
+        }
+        // end Lungs Frame
+
+        //Bar Graph
+        function NeverBars() {
+            bottomLayer.fillStyle = "#fff";
+            bottomLayer.fillRect(0,(368-(parseInt(State.smoke_everyday+State.smoke_some_days))),300,-(1.94*(parseInt(State.never_smoked))));
+        }
+        function SomeBars(t, vert, horz) {
+            bottomLayer.fillStyle = "#dddddd";
+            bottomLayer.fillRect(0,(368-(parseInt(State.smoke_everyday))),300,-(1.94*(parseInt(State.smoke_some_days))));
+        }
+
+        function DailyBars() {
+            var dailyBarBg = new Image();
+            dailyBarBg.src = "fill_texture.png";
+            dailyBarBg.onload = function(){
+                bottomLayer.drawImage(dailyBarBg,0,368,300,-(1.94*(parseInt(State.smoke_everyday))));
+            };
+        }
+
+        function DrawGraph(){
+            NeverBars();
+            SomeBars();
+            DailyBars();
+        }
+        // end Bar Graph
+         
+        function loadData(objJSON) {
+            var results = [];
+            var searchField = "state"; 
+            var searchVal = sName;
+            for (var i=0; i < objJSON.length; i++)
+            {
+                if (objJSON[i][searchField] == searchVal) {
+                    results.push(objJSON[i]);
+                }
+            }             
+            if(results.length > 0)
+            {
+                State  = results[0];
+            }
+            else
+            {
+                State  = objJSON[0];
+            }
+            // Create the widget - info is dependent on loadData
+            function DrawAll(){
+                DrawInfo();
+                DrawBackground();
+                DrawGraph();
+            }
+
+            DrawAll();
+        }
+    </script>
+    <script type="text/javascript" id="JSONPScriptTag" src="https://data.cdc.gov/resource/ya9m-pyut.json?$limit=5&$jsonp=loadData"></script>
+</body>
+</html>

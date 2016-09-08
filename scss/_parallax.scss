@@ -1,0 +1,20 @@
+.parallax-background {
+  background-image: url('img/portrait.jpg');
+  height: 620px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+}
+
+.parallax-content {
+  background-color: #eee;
+  max-width: 100%;
+  position: relative;
+  top: 500px;
+  padding: 50px;
+  font-size: 20px;
+}

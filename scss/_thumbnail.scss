@@ -1,0 +1,37 @@
+@mixin thumbnail {
+   padding: 15px;
+}
+
+.thumbnail.circle {
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+   border: none;
+   margin: 15px 0px;
+   padding: 0px;
+   border-radius: 50%;
+}
+
+.thumbnail.circle:hover {
+   transform: scale(1.1);
+   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16), 5 2px 10px 0 rgba(0, 0, 0, 0.12);
+   -webkit-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+
+.thumbnail.shadow {
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+   border: none;
+   margin: 15px 0px;
+   padding: 0px;
+   border-radius: 50%;
+}
+
+.thumbnail.shadow:hover {
+   transform: scale(1.1);
+   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16), 5 2px 10px 0 rgba(0, 0, 0, 0.12);
+   -webkit-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+
+.thumb-label {
+   text-align: center;
+}

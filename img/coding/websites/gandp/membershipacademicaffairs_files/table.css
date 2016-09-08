@@ -1,0 +1,60 @@
+/*table, th, td { */
+table, tr, th, td { 
+	border-collapse: collapse;
+	text-align:left;
+	font-weight: bold;
+/*	font-family: Helvetica, Arial, sans-serif;*/
+	font: normal 12px/150% Times New Roman, serif; 
+}
+
+table { 
+/*	font-size:12px/150%;*/
+	border: 2px solid #8D303A;
+}
+
+/*tr, th, td { border:none; }*/
+
+table th, table td { padding: 3px 10px;}
+
+th {
+	background-color:#8D303A; 
+	color:#FFFFFF; 
+	font-size: 13px; 
+	font-weight: bold;
+	text-align: left;
+	border: none;
+/*original settings*/
+/*	font-size: 1.1em;*/
+}
+
+td {  
+	border-left: 1px solid #D4D4D4;
+	border-bottom: 1px solid #D4D4D4;
+	font-size: 12px;
+	/*font-weight: bold;*/
+}
+
+/*REMOVED AFTER GLOBAL <A> COLOR CHANGE MADE IT UNREADABLE tr:hover {
+	background: #8D303A;
+	color: #FFFFFF;
+}*/
+
+/*table tr a {
+	color: #00009D;
+}*/
+
+/*REMOVED AFTER GLOBAL <A> COLOR CHANGE MADE IT UNREADABLE*/
+table tr a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+/*table tr.alt:hover {
+/*REMOVED AFTER GLOBAL <A> COLOR CHANGE MADE IT UNREADABLE*/ 
+table tr:nth-child(even):hover, table tr:nth-child(odd):hover {
+	background: #8D303A;
+	color: #FFFFFF;
+}*/
+
+tr:nth-child(even) { background: #FFF; }
+tr:nth-child(odd) { background: #E0E0E0; }

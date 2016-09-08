@@ -1,0 +1,559 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<script type="text/javascript" src="http://depts.gpc.edu/governance/javascript/jquery-latest.js"></script>
+	<script type="text/javascript" src="http://depts.gpc.edu/governance/javascript/navigation.js"></script>
+	<script type="text/javascript" src="http://depts.gpc.edu/governance/javascript/jquery.cookie.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://depts.gpc.edu/governance/navigation.css" />
+</head>
+<body>
+<div id="navContainer">
+<!--<ul id="menu1" class="example_menu">-->
+<ul id="nav">
+	<!-- <li style="width:100%; border-bottom: 1px dotted #C7C1BA;"><a href="http://depts.gpc.edu/governance"><strong>Home</a></strong></li> -->
+	<li style="border-bottom: 1px dotted #C7C1BA;"><a href="http://depts.gpc.edu/governance"><strong>Home</a></strong></li>
+	<!-- <li style="width:100%; border-bottom: 1px dotted #C7C1BA;"><a href="#"><strong>Governance</strong></a> -->
+	<li style="border-bottom: 1px dotted #C7C1BA;"><a href="#"><strong>Governance</strong></a>
+		<ul>
+			<li><a href="http://depts.gpc.edu/governance/governancemodel.html">Governance Model</a></li>
+			<li><a href="http://depts.gpc.edu/~gpcoirp/gpcorg/">Organizational Charts</a></li>
+			<li><a href="http://depts.gpc.edu/governance/executiveteam.html">Executive Team</a>
+				<ul>
+					<!--<li><a href="http://depts.gpc.edu/governance/executiveteamminutes.html">Minutes</a></li>-->
+					<li><a href="http://depts.gpc.edu/governance/executiveteamschedule.html">Schedule and Minutes</a></li>
+					<li><a href="http://depts.gpc.edu/governance/previousmeetingscheduleet.html">Previous Schedule/Minutes</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/executiveteamschedule2011.html">2011</a></li>
+							<li><a href="http://depts.gpc.edu/governance/executiveteamschedule2010.html">2010</a></li>
+							<li><a href="http://depts.gpc.edu/governance/executiveteamschedule2009.html">2009</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/facultysenate.html">Faculty Senate</a></li>
+			<li><a href="http://depts.gpc.edu/governance/openforums.html">Open Forums</a></li>
+			<li><a href="http://depts.gpc.edu/governance/govpolicycouncilmemberships.html">Policy Councils</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/govmembershipacademicaffairs.html">Academic Affairs</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/govpreviousmembershipaapc.htm">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/govmembershipacademicaffairs2010.html">2010-2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/govmembershipacademicaffairs2010march.html">March-July 2010</a></li>
+									<li><a href="http://depts.gpc.edu/governance/govmembershipacademicaffairs2009.html">2009-February 2010</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/govminutesforacademicaffairs.html">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/AAPCBYLAWS9-20-11.pdf">Bylaws</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govbylawsaapcprevious.html">Previous Bylaws</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govmtgscheduleaapc.html">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/govmtgscheduleaapc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/govmtgscheduleaapc2010.html">2010</a></li>
+									<li><a href="http://depts.gpc.edu/governance/govmtgscheduleaapc2009.html">2009</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/govmembershipstudentaffairs.html">Student Affairs</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/govpreviousmembershipsapc.html">Previous Membership</a></li>
+							<!--<li><a href="http://depts.gpc.edu/governance/govminutesforstudentaffairs.html">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/studentaffairsbylaws2012.pdf">Bylaws</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govbylawssapcprevious.html">Previous Bylaws</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govmtgschedulesapc.html">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/govmtgschedulesapc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/govmtgschedulesapc2010.html">2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/govmembershipfinancialadministrative.html">Financial and Administrative Affairs</a>
+						<ul>
+							<!--<li><a href="http://depts.gpc.edu/governance/govminutesforfinancialaffairs.html">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/financialadministrativebylaws.pdf">Bylaws</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govmtgschedulefapc.html">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/govmtgschedulefapc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/govmtgschedulefapc2010.html">2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/govmembershipinstitutionaladvancement.html">Institutional Advancement</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/govpreviousmembershipiapc.htm">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/govmembershipinstitutionaladvancement2010.html">2010-2011</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/govminutesforinstitutionaladvancement.html">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/institutionaladvancementpolicybylaws.pdf">Bylaws</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govmtgscheduleiapc.html">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/govmtgscheduleiapc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/govmtgscheduleiapc2010.html">2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/govmembershipinformationsystemstechnology.html">Information Technology</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/govpreviousmembershipitpc.htm">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/govmembershipinformationsystemstechnology2010.html">2010-2011</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/govminutesforinformationtechnology.html">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/informationtechnologybylaws2012.pdf">Bylaws</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govbylawsitpcprevious.html">Previous Bylaws</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govmtgscheduleitpc.html">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/govmtgscheduleitpc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/govmtgscheduleitpc2010.html">2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/presidentscabinet.html">President's Cabinet</a>
+				<ul>
+					<!--<li><a href="http://depts.gpc.edu/governance/presidentscabinetminutes.htm">Minutes</a></li>-->
+					<li><a href="http://depts.gpc.edu/governance/presidentscabinetschedule.html">Schedule and Minutes</a></li>
+					<li><a href="http://depts.gpc.edu/governance/previousmeetingschedulepc.html">Previous Schedule/Minutes</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/presidentscabinetschedule2011.html">2011</a></li>
+							<li><a href="http://depts.gpc.edu/governance/presidentscabinetschedule2010.html">2010</a></li>
+							<li><a href="http://depts.gpc.edu/governance/presidentscabinetschedule2009.html">2009</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/govadvisoryboardmembership.html">President's Policy Advisory Board</a>
+				<ul>
+					<!--<li><a href="http://depts.gpc.edu/governance/govppabminutes.html">Minutes</a></li>-->
+					<li><a href="http://depts.gpc.edu/governance/govadvisoryboardschedule.html">Schedule and Minutes</a></li>
+					<li><a href="http://depts.gpc.edu/governance/govpreviousmeetingscheduleppab.html">Previous Schedule/Minutes</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/govppabschedule2011.html">2011</a></li>
+							<li><a href="http://depts.gpc.edu/governance/govppabschedule2010.html">2010</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/staffsenate.html">Staff Senate</a></li>
+			<li><a href="http://depts.gpc.edu/governance/collegewidestandingcommittees.html#CollegeWideStandingCommittees">Standing Committees</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteeacademicassessment.html#content">Academic Assessment</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_academicassessment.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/academicassessmentpastschedule.html#content">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_academicassessment2011.html#content">2011</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/academicassessmentstandingcommitteeminutes.html#content">Minutes</a></li>-->
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteesacademicmasterplan.html#content">Academic Master Plan</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_academicmasterplan.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/academicmasterplanpastschedule.html#content">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a title="Academic Master Plan Schedule 2011" href="http://depts.gpc.edu/governance/standingcommschedule_academicmasterplan2011.html#content">2011</a></li>
+									<li><a title="Academic Master Plan Schedule 2010" href="http://depts.gpc.edu/governance/standingcommschedule_academicmasterplan2010.html#content">2010</a></li>
+									<li><a title="Academic Master Plan Schedule 2008" href="http://depts.gpc.edu/governance/standingcommschedule_academicmasterplan2008.html#content">2008</a></li>
+									<li><a title="Academic Master Plan Schedule 2007" href="http://depts.gpc.edu/governance/standingcommschedule_academicmasterplan2007.html#content">2007</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/academicmasterplanstandingcommitteeminutes.html#content">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/academicmasterplanpastmembership.html#content">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteesacademicmasterplan2010.html#content">2010-2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteesacademicmasterplan2009.html#content">2009-2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteescommencement.html#content">Commencement</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_commencement.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/commencementpastschedule.html#content">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_commencement2011.html#content">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_commencement2010.html#content">2010</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_commencement2009.html#content">2009</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/commencementstandingcommitteeminutes.html#content">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/standingcommitteescommencement2010.html#content">Previous Membership</a></li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteesenrollment.html#content">EMT</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_enrollment.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/enrollmentmgmtpastschedule.html#content">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_enrollment2011.html#content">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_enrollment2010.html#content">2010</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_enrollment2009.html#content">2009</a></li>
+								</ul>
+							</li>
+							<li><a href="http://depts.gpc.edu/governance/enrollmentmgmtteamstandingcommitteeminutes.html#content">Minutes</a></li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteesfirstyearexperience.html#content">First-Year Experience</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_firstyearexperience.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/firstyearexperiencepastschedule.html#content">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_firstyearexperience2011.html#content">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_firstyearexperience2010.html#content">2010</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/firstyearexperiencestandingcommitteeminutes.html#content">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/firstyearexperiencepastmembership.html#content">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteesfirstyearexperience2010.html#content">2010-2011</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteehomelandsecurity.html#content">Homeland Security</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_homelandsecurity.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/homelandsecuritypastschedule.html#content">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_homelandsecurity2011.html#content">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_homelandsecurity2010.html#content">2010</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/homelandsecuritystandingcommitteeminutes.html#content">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/homelandsecuritypastmembership.html#content">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteehomelandsecurity2010.html#content">2010-2011</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteehonors.html#content">Honors Council</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_honors.html#content">Schedule</a></li>
+							<li><a href="http://depts.gpc.edu/governance/honorspastmembership.html#content">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteehonors2011.html#content">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteehonors2010.html#content">2010-2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteehonors2009.html#content">2009-2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteeinfotech.html#content">Information Technology</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_infotech.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/informationtechnologypastschedule.html#content">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_infotech2011.html#content">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_infotech2010.html#content">2010</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_infotech2009.html#content">2009</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/infotechstandingcommitteeminutes.html#content">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/informationtechnologypastmembership.html#content">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteeinfotech2009.html#content">2009-2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteeqep.html#content">QEP</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_qep.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/qeppastschedule.html#content">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_qep2011.html#content">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_qep2010.html#content">2010</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_qep2009.html#content">2009</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/qepstandingcommitteeminutes.html#content">Minutes</a></li>-->
+							<li><a href="http://depts.gpc.edu/governance/qeppastmembership.html#content">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteeqep2010.html#content">2010-2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/standingcommitteeqep2009.html#content">2009-2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/standingcommitteeretention.html#content">Retention &amp; Graduation</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommschedule_retention.html#content">Schedule and Minutes</a></li>
+							<li><a href="http://depts.gpc.edu/governance/retentionpastschedule.html">Previous Schedule/Minutes</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_retention2011.html#content">2011</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="http://depts.gpc.edu/governance/retentiongraduationstandingcommitteeminutes.html#content">Minutes</a></li>-->
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/archivedcommittees.html#content">Archived Committees</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/standingcommitteeoitadvisory.html#content">OIT</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_oitadvisory.html#content">Schedule and Minutes</a></li>
+									<li><a href="http://depts.gpc.edu/governance/oitadvisorypastschedule.html#content">Previous Schedule/Minutes</a>
+										<ul>
+											<li><a href="http://depts.gpc.edu/governance/standingcommschedule_oitadvisory2009.html#content">2009</a></li>
+										</ul>
+									</li>
+									<!--<li><a href="http://depts.gpc.edu/governance/oitadvisorystandingcommitteeminutes.html#content">Minutes</a></li>-->
+								</ul>
+							</li>
+							<li><a href="http://depts.gpc.edu/governance/standingcommitteeorientation.html#content">Orientation</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_orientation.html#content">Schedule and Minutes</a></li>
+									<li><a href="http://depts.gpc.edu/governance/orientationpastschedule.html#content">Previous Schedule/Minutes</a>
+										<ul>
+											<li><a href="http://depts.gpc.edu/governance/standingcommschedule_orientation2010.html#content">2010</a></li>
+											<li><a href="http://depts.gpc.edu/governance/standingcommschedule_orientation2009.html#content">2009</a></li>
+										</ul>
+									</li>
+									<!--<li><a href="http://depts.gpc.edu/governance/orientationstandingcommitteeminutes.htm#content">Minutes</a></li>-->
+								</ul>
+							</li>
+							<li><a href="http://depts.gpc.edu/governance/standingcommitteestrategicplanning.html#content">Strategic Planning</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/standingcommschedule_strategicplanning.html#content">Schedule and Minutes</a></li>
+									<li><a href="http://depts.gpc.edu/governance/strategicplanningpastschedule.html#content">Previous Schedule/Minutes</a>
+										<ul>
+											<li><a href="http://depts.gpc.edu/governance/standingcommschedule_strategicplanning2010.html#content">2010</a></li>
+											<li><a href="http://depts.gpc.edu/governance/standingcommschedule_strategicplanning2009.html#content">2009</a></li>
+										</ul>
+									</li>
+									<!--<li><a href="http://depts.gpc.edu/governance/strategicplanningstandingcommitteeminutes.html#content">Minutes</a></li>-->
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/taskforces.html#content">Task Forces</a>
+			<!--<li><a href="#">Task Forces</a>-->
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/taskforcepriorlearning.html#content">Prior Learning Assessment</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskforcesustainability.html#content">Sustainability</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskforcediversity.html#content">Diversity</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/diversitytaskforceminutes.html#content">Minutes</a></li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/~presoff/leansixsigmataskteamscontinued.html">Lean Six Sigma Task Force</a></li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/collegewidetaskteams.html#content">Task Teams </a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/taskteamhybridcourse.html#content">Hybrid Course</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskteamwritersinstitute.html#content">Writers Institute</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskteamonlineenrollment.html#content">Online Enrollment</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskteamenrollment.html#content">Enrollment and Registration</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskteamdatadriven.html#content">Data Driven</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskteamfinancialaid.html#content">Financial Aid</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskteamonline.html#content">Online</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskteamadmissions.html#content">Admissions</a></li>
+					<li><a href="http://depts.gpc.edu/governance/taskteamrecruitment.html#content">Recruitment Blue Ribbon</a></li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/presidentialthinktanks.html#content">Think Tanks</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/thinktankhybridcourses.html#content">Hybrid Courses</a></li>
+					<li><a href="http://depts.gpc.edu/governance/thinktanksustainable.html#content">Sustainable Living &amp; Environmental Studies</a></li>
+					<li><a href="http://depts.gpc.edu/governance/thinktankwriters.html#content">Writers Institute</a></li>
+					<li><a href="http://depts.gpc.edu/governance/thinktankinternational.html#content">International Education</a></li>
+					<li><a href="http://depts.gpc.edu/governance/thinktankdiversity.html#content">Diversity</a></li>
+					<li><a href="http://depts.gpc.edu/governance/thinktankgovernance.html#content">Governance</a></li>
+					<li><a href="http://depts.gpc.edu/governance/thinktankonlineeducation.html#content">Online Education</a></li>
+					<li><a href="http://depts.gpc.edu/governance/thinktankqep.html#content">QEP</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li><a href="#"><strong>Policy</strong></a>
+		<ul>
+			<li><a  href="http://depts.gpc.edu/governance/policymanualintroduction.html">Policy Manual</a></li>
+			<li><a  href="http://depts.gpc.edu/governance/PolicyReviewProcessSlide_v7.pdf">Policy Review Process </a></li>
+			<li style="margin-left: 15px;"><a href="http://depts.gpc.edu/governance/aapcpolicyreviewprocess.pdf">AAPC Review Process</a></li>
+			<li><a  href="http://depts.gpc.edu/governance/policyroutingform.html" title="Policy Routing Form">Policy Routing Form</a></li>
+			<li><a  href="http://depts.gpc.edu/governance/policytemplate.html">Policy Template</a></li>
+			<li><a href="http://depts.gpc.edu/governance/policyrevisionguide.pdf" target="_blank" > Policy Revision Guide</a></li>
+			<li><a href="http://depts.gpc.edu/governance/policiesunderreview.html">Policies Under Review</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/policiesunderreviewacademics.html">Academic Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesunderreviewstudentaffairs.html">Student Affairs </a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesunderreviewfinancialaffairs.html">Financial and Administrative Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesunderreviewadvancement.html">Institutional Advancement</a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesunderreviewinformationsystems.html">Information Technology</a></li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/policiesapproved.html">Policies Approved</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/policiesapprovedacademics.html">Academic Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesapprovedstudentaffairs.html">Student Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesapprovedfinancialaffairstoc.html">Financial and Administrative Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesapprovedinstitutionaladvancement.html">Institutional Advancement</a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesapprovedinformationsystems.html">Information Technology</a></li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/policiesdeleted.html">Policies Deleted</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/policiesdeletedacademics.html">Academic Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesdeletedstudentaffairs.html">Student Affairs </a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesdeletedfinancialaffairs.html">Financial and Administrative Affairs </a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesdeletedinstitutionaladvancement.html">Institutional Advancement </a></li>
+					<li><a href="http://depts.gpc.edu/governance/policiesdeletedinformationsystems.html">Information Technology </a></li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/policycouncilmemberships.html">Policy Council Membership</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/membershipacademicaffairs.html">Academic Affairs</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/previousmembershipaapc.htm">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/membershipacademicaffairs2010.html">2010-February 2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/membershipacademicaffairs2010march.html">March 2010-July 1</a></li>
+									<li><a href="http://depts.gpc.edu/governance/membershipacademicaffairs2009.html">2009-February 2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/membershipstudentaffairs2011.html">Student Affairs</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/previousmembershipsapc.htm">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/membershipstudentaffairs2010.html">2009-2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/membershipfinancialadministrative.html">Financial and Administrative Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/membershipinstitutionaladvancement.html">Institutional Advancement</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/previousmembershipiapc.htm">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/membershipinstitutionaladvancement2010.html">2010-2011</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/membershipinformationsystemstechnology2012.html">Information Technology</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/previousmembershipitpc.htm">Previous Membership</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/membershipinformationsystemstechnology2010.html">2010-2011</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/policycouncilschedules.html">Policy Council Schedules and Minutes</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/mtgscheduleaapc.html">Academic Affairs</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/mtgscheduleaapcprevious.html">Previous Schedules</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/mtgscheduleaapc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/mtgscheduleaapc2010.html">2010</a></li>
+									<li><a href="http://depts.gpc.edu/governance/mtgscheduleaapc2009.html">2009</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/mtgschedulesapc.html">Student Affairs</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/mtgschedulesapcprevious.html">Previous Schedules</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/mtgschedulesapc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/mtgschedulesapc2010.html">2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/mtgschedulefaapc.html">Financial and Administrative Affairs</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/mtgschedulefaapcprevious.html">Previous Schedules</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/mtgschedulefaapc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/mtgschedulefaapc2010.html">2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/mtgscheduleiapc.html">Institutional Advancement</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/mtgscheduleiapcprevious.html">Previous Schedules</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/mtgscheduleiapc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/mtgscheduleiapc2010.html">2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://depts.gpc.edu/governance/mtgscheduleitpc.html">Information Technology</a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/mtgscheduleitpcprevious.html">Previous Schedules</a>
+								<ul>
+									<li><a href="http://depts.gpc.edu/governance/mtgscheduleitpc2011.html">2011</a></li>
+									<li><a href="http://depts.gpc.edu/governance/mtgscheduleitpc2010.html">2010</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/policycouncilbylaws.html">Policy Council Bylaws</a>
+<!--				<ul>
+					<li><a title="Academic Affairs Policy Council Bylaws" target="_blank" href="http://depts.gpc.edu/governance/AAPCBYLAWS9-20-11.pdf">Academic Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/academicaffairsbylaws.pdf">Previous AAPC Bylaws</a></li>
+					<li><a href="http://depts.gpc.edu/governance/studentaffairsbylaws.pdf" title="Student Affairs Policy Council Bylaws" target="_blank">Student Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/financialadministrativebylaws.pdf" title="Financial and Administrative Affairs Policy Council Bylaws " target="_blank">Financial and Administrative Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/institutionaladvancementpolicybylaws.pdf" title="Institutional Advancement Policy Council Bylaws" target="_blank">Institutional Advancement</a></li>
+					<li><a href="http://depts.gpc.edu/governance/informationtechnologybylaws.pdf" title="Information Technology Advisory and Policy Council Bylaws" target="_blank">Information Technology</a></li>
+				</ul>-->
+			</li>
+<!--			<li><a href="http://depts.gpc.edu/governance/policycouncilminutes.html">Policy Council Minutes</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/minutesforacademicaffairs.html" title="Minutes for Academic Affairs Policy Council ">Academic Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/minutesforstudentaffairs.html" title="Minutes for Student Affairs Policy Council ">Student Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/minutesforfinancialaffairs.html" title="Minutes for Financial and Administrative Affairs Policy Council ">Financial and Administrative Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/minutesforinstitutionaladvancement.html" title="Minutes for Institutional Advancement Policy Council ">Institutional Advancement</a></li>
+					<li><a href="http://depts.gpc.edu/governance/minutesforinformationtechnology.html" title="Minutes for Information Technology Advisory and Policy Council">Information Technology</a></li>
+				</ul>
+			</li>-->
+			<li><a href="http://depts.gpc.edu/governance/policytaskteams.html">Policy Task Teams</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/academicaffairspolicycounciltaskteam.html">Academic Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/institutionaladvancementpolicytaskteam.html">Institutional Advancement</a></li>
+					<li><a href="http://depts.gpc.edu/governance/financialaffairspolicytaskteam.html">Financial Affairs</a></li>
+					<li><a href="http://depts.gpc.edu/governance/facultycodepolicytaskteam.html">Faculty Code of Conduct</a></li>
+				</ul>
+			</li>
+			<li><a href="http://depts.gpc.edu/governance/presidentadvisoryboard.html">President's Policy Advisory Board</a>
+				<ul>
+					<li><a href="http://depts.gpc.edu/governance/presidentadvisoryboardschedule.html">Schedule and Minutes</a></li>
+					<li><a href="http://depts.gpc.edu/governance/previousmeetingscheduleppab.html">Previous Schedules/Minutes </a>
+						<ul>
+							<li><a href="http://depts.gpc.edu/governance/presidentadvisoryboardschedule2011.html">2011</a></li>
+							<li><a href="http://depts.gpc.edu/governance/presidentadvisoryboardschedule2010.html">2010</a></li>
+						</ul>
+					</li>
+					<!--<li><a href="http://depts.gpc.edu/governance/ppabminutes.html">Minutes</a></li>-->
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+</div>
+</body>
+</html>
